@@ -20,28 +20,7 @@ Currently the following features are implemented:
   - codigos usados e aplicaçoẽs
   
 - **Flexibilidade**
-  - Configure and customize any parts of CSCore
 
-### Version
-- 3.2.7
-
-## Tecnologia utilizada
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh
-
-### Como Instalar 
-Com o terminal aberto!.
-
-First Tab:
-```sh
-$ git clone [git-repo-url] [Novo-Nome]
 ```
 ### Documentação
 *Documentao do codigo*
