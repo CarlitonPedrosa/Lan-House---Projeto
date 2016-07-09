@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="455.0" maxWidth="300.0" minHeight="455.0" minWidth="250.0" prefHeight="455.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufms.desafio.controller.Criar_1Controller">
+   <children>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="300.0" spacing="1.0">
+         <children>
+            <Line endX="55.0" fill="RED" stroke="#04ff00" strokeWidth="5.0" />
+            <Line endX="55.0" fill="RED" layoutX="61.0" stroke="#04ff00" strokeWidth="5.0" />
+            <Line endX="55.0" fill="RED" layoutX="122.0" stroke="#04ff00" strokeWidth="5.0" />
+            <Line endX="55.0" fill="RED" layoutX="183.0" stroke="#b2b2b2" strokeWidth="5.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Line>
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <Label text="Criar nova conta">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" opacity="0.52" text="Dados escolares" />
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0">
+         <children>
+            <VBox alignment="CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="2.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" layoutX="38.0" layoutY="6.0" text="Escola" textAlignment="CENTER" />
+                  <TextField />
+                  <Label text="Série" />
+                  <ChoiceBox prefWidth="150.0">
+                     <items>
+                        <FXCollections fx:factory="observableArrayList">
+                           <String fx:value="6º Ano - Ensino Fundamental" />
+                           <String fx:value="7º Ano - Ensino Fundamental" />
+                           <String fx:value="8º Ano - Ensino Fundamental" />
+                           <String fx:value="9º Ano - Ensino Fundamental" />
+                           <String fx:value="9º Ano - Ensino Fundamental" />
+                           <String fx:value="1º Ano - Ensino Médio" />
+                           <String fx:value="2º Ano - Ensino Médio" />
+                           <String fx:value="3º Ano - Ensino Médio" />
+                           
+                        </FXCollections>
+                     </items>
+                  </ChoiceBox>
+                  <Label layoutX="29.0" layoutY="56.0" text="Possui alguma deficiência?" />
+                  <ChoiceBox prefWidth="150.0">
+                     <items>
+                        <FXCollections fx:factory="observableArrayList">
+                           <String fx:value="Nenhuma" />
+                           <String fx:value="Auditiva" />
+                           <String fx:value="Visual" />
+                           <String fx:value="Mental" />
+                           <String fx:value="Física" />
+                           <String fx:value="Outra" />
+                        </FXCollections>
+                     </items>
+                  </ChoiceBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </VBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button lineSpacing="5.0" mnemonicParsing="false" text="Voltar" />
+                  <Button alignment="CENTER_RIGHT" mnemonicParsing="false" text="Próximo" />
+                  <Button alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" text="Cancelar">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="192.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

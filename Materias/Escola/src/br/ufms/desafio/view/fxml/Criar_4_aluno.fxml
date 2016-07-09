@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="455.0" maxWidth="300.0" minHeight="455.0" minWidth="250.0" prefHeight="455.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufms.desafio.controller.Criar_1Controller">
+   <children>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="300.0" spacing="1.0">
+         <children>
+            <Line endX="55.0" fill="RED" stroke="#04ff00" strokeWidth="5.0" />
+            <Line endX="55.0" fill="RED" layoutX="61.0" stroke="#04ff00" strokeWidth="5.0" />
+            <Line endX="55.0" fill="RED" layoutX="122.0" stroke="#04ff00" strokeWidth="5.0" />
+            <Line endX="55.0" fill="RED" layoutX="183.0" stroke="#04ff00" strokeWidth="5.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Line>
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <Label text="Criar nova conta">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" opacity="0.52" text="Localização" />
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="2.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="15.0" prefWidth="221.0" spacing="3.0">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="161.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" text="Endereço" textAlignment="CENTER" />
+                              <TextField prefHeight="25.0" prefWidth="145.0" promptText="Rua Oswaldo Goeld" />
+                              <Label text="Bairro" />
+                              <TextField alignment="CENTER" />
+                              <Label text="Municipio" />
+                              <TextField />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="68.0">
+                           <children>
+                              <Label text="Número" textAlignment="CENTER" />
+                              <TextField prefHeight="25.0" prefWidth="58.0" promptText="32" />
+                              <Label text="CEP" />
+                              <TextField />
+                              <Label text="UF" />
+                              <TextField />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Label layoutX="58.0" layoutY="161.0" text="Complemento" />
+                  <TextField />
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </VBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button lineSpacing="5.0" mnemonicParsing="false" text="Voltar" />
+                  <Button alignment="CENTER_RIGHT" mnemonicParsing="false" text="Próximo" />
+                  <Button alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" text="Cancelar">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="156.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>
